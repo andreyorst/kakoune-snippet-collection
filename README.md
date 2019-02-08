@@ -1,4 +1,4 @@
-# Kakoune Snippets Collection
+# Kakoune Snippet Collection
 This repository  contains snippets  for various  languages.  Those  snippets are
 designed to work with [occivink/kakoune-snippets][1] plugin.
 
@@ -6,9 +6,9 @@ designed to work with [occivink/kakoune-snippets][1] plugin.
 
 ### With [plug.kak][3]
 You     need     to     install     both     `occivink/kakoune-snippets`     and
-`andreyorst/kakoune-snippet-collection` plugins and the former, so it could know
-where to get snippets, by defining a  path to this plugin's snippet directory in
-the `snippet_directories` option.
+`andreyorst/kakoune-snippet-collection` plugins and configure  the former, so it
+could know where  to get snippets, by  defining a path to  this plugin's snippet
+directory in the `snippet_directories` option.
 
 Overall configuration can look like this:
 
@@ -41,7 +41,7 @@ to contribute your snippets, to make them available for others, feel free to add
 them to the `snippets` directory, by following this simple set of rules:
 
 - Share snippets between languages if possible:
-  If snippets can be shared between several languages consider putting those in
+  If snippets can be shared between  several languages consider putting those in
   a folder named `(filetype1|filetype2|...|filetypeN)`. Otherwise name folder to
   `filetype`.
 - Consider using proper descriptions in filenames:
