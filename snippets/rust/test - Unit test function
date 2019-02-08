@@ -1,4 +1,4 @@
 #[test]
 fn ${1:test_function_name}() {
-    ${0:/* test body */}
+	${0:/* test body */}
 }
