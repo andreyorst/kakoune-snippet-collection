@@ -1,0 +1,6 @@
+select {
+case ${1:value} := <-${2:channel}
+	$3
+default:
+	$0
+}

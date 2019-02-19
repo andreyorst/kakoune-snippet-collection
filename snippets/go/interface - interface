@@ -1,0 +1,3 @@
+interface ${1:name} {
+	$0
+}
