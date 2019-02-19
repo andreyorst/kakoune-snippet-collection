@@ -1,0 +1,3 @@
+func(${1:arguments}) ${2:returntype} {
+	$0
+}

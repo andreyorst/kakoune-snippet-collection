@@ -1,0 +1,4 @@
+if ${1:err} != nil {
+	return $1
+}
+$0
