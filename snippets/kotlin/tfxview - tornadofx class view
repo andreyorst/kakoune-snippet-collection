@@ -1,0 +1,9 @@
+package ${1:Name}
+
+
+import tornadofx.*
+
+
+class ${2:Name} : ${3:ViewType}("${4:ViewName}") {
+	${0:// body-5}
+}

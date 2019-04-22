@@ -1,0 +1,4 @@
+@JvmStatic
+fun main(args: Array<String>) {
+	${0:Body}
+}

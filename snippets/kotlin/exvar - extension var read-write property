@@ -1,0 +1,7 @@
+var ${1:Receiver}.${2:Name} : ${3:Type}
+	get() {
+		${4:// body-4}
+}
+	set(${5:Value}) {
+		${0:// body-6}
+}

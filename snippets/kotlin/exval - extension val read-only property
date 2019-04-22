@@ -1,0 +1,4 @@
+val ${1:Receiver}.${2:Name} : ${3:Type}
+	get() {
+		${0:// body-4}
+}

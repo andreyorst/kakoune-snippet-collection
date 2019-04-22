@@ -1,0 +1,6 @@
+package ${1:Name}
+
+
+enum class ${2:Name} {
+	${0:// body-3}
+}

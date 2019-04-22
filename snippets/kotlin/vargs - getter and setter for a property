@@ -1,0 +1,4 @@
+var ${1:Variable} = ${2:Value}
+	get() = ${3:Field-3}
+	set(${4:Value}) {
+		${5:Field-5} = ${0:Value-6}
