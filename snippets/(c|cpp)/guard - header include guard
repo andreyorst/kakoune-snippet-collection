@@ -1,4 +1,4 @@
-#ifndef ${1!substitute(substitute(expand('%:t'), '.*', '\U&', 'g'), '\v\..*', '_H', 'g')}
+#ifndef ${1:__GUARD__}
 #define $1
-${0:/* header body */}
+${0:/* body */}
 #endif /* $1 */
