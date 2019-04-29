@@ -1,0 +1,3 @@
+for ((${1:Index}, ${2:Value}) in ${3:Iterator}) {
+	${0: \\ body}
+}
