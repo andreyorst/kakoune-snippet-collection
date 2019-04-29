@@ -23,8 +23,7 @@ while (1)
 	 * optional_argument: "::"
 	 */
 
-	choice = getopt_long(argc, argv, "vh",
-				long_options, &option_index);
+	choice = getopt_long(argc, argv, "vh", long_options, &option_index);
 
 	if (choice == -1)
 		break;
