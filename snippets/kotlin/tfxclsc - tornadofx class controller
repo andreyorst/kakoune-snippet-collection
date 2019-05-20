@@ -1,0 +1,11 @@
+package ${1:Name}
+
+
+import tornadofx.*
+
+
+class ${2:Name} : Controller() {
+	val ${3:Property} = ${4:Builder}
+
+	${0:// body-5}
+}

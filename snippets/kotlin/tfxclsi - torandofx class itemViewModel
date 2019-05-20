@@ -1,0 +1,12 @@
+package ${1:Name}
+
+import javafx.beans.property.Simple${7}Property
+import tornadofx.*
+
+
+class ${2:Name} : ItemViewModel<${3:Class}>() {
+	val ${4:Property} = bind(${3}::${5:property})
+	val ${6:Property} = bind { Simple${7:Type}Property(${8:item}) }
+
+	${0:// body-9}
+}

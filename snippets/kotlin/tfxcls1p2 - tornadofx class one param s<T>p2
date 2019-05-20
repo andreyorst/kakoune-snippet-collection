@@ -1,0 +1,17 @@
+package ${1:Name}
+
+import javafx.beans.property.Simple${6}Property
+import javafx.beans.property.Simple${9}Property
+import tornadofx.*
+
+
+class ${2:Name}(${3:Param}: ${4:Type}) {
+	val ${5:Property} = Simple${6:Type}Property(${3})
+	var ${7:Synonym} by ${5}
+
+	val ${8:Property} = Simple${9:Type}Property()
+	var ${10:Synonym} by ${8}
+
+	${0:// body-11}
+
+}

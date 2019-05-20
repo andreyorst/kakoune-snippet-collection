@@ -1,0 +1,14 @@
+package ${1:Name}
+
+
+import tornadofx.*
+
+
+class ${2:Name} : View() {
+	val ${3:Property}: ${4:Class} by inject()
+
+	override val root = ${5:Node} {
+		${0:// body-6}
+	}
+	
+}
