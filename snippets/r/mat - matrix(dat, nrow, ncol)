@@ -1,0 +1,1 @@
+matrix(${1:data}, nrow = ${2:rows}, ncol = ${3:cols})

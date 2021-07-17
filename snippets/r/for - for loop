@@ -1,0 +1,3 @@
+for (${1:variable} in ${2:vector}) {
+	${0}
+}
